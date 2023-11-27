@@ -1,6 +1,5 @@
-package web.DAO;
+package web.service;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import web.model.Car;
 
@@ -9,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Component
-public class CarDAO implements CarService {
+public class CarServiceImpl implements CarService {
 
     private List<Car> listCars;
 
